@@ -10,3 +10,20 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "리액트"
+        url: "/react"
+        count: {{ site.categories.react.size }}
+      - title: "스프링"
+        url:  "/spring"
+        count: {{ site.categories.spring.size }}
+      - title: "깃"
+        url:  "/git"
+        count: {{ site.categories.git.size }}
+      - title: "알고리즘"
+        url:  "/algorithm"
+        count: {{ site.categories.algorithm.size }}
+
